@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home Page</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Hero Section */
+    .hero {
+      background-image: url('about.jpg'); /* Replace with your image path */
+      background-size: cover;
+      background-position: center;
+      color: white;
+      height: 300px;
+      width: 1400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.6);
+      margin: 0;
+    }
+
+    /* Navigation */
+    nav {
+      background: purple;
+      color: white;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #444;
+      min-width: 160px;
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: white;
+      padding: 10px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .main-content {
+      padding: 30px;
+      color: white;
+      background: grey;
+    }
+
+    .main-content2 {
+      padding: 10px;
+      color: white;
+      background: purple;
+    }
+
+    /* Stats Section */
+    .stats-section {
+      display: flex;
+      justify-content: space-around;
+      padding: 40px 20px;
+      background: #f2f2f2;
+      color: #333;
+      perspective: 1000px;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .stat-box {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+      padding: 30px;
+      width: 250px;
+      text-align: center;
+      transform-style: preserve-3d;
+      transition: transform 0.3s ease;
+      flex: 1 1 250px;
+    }
+
+    .stat-box:hover {
+      transform: scale(1.05);
+    }
+
+    .stat-box h3 {
+      margin-bottom: 10px;
+      font-size: 1.2rem;
+      color: purple;
+    }
+
+    .counter {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #222;
+    }
+
+    /* Footer */
+    .site-footer {
+      padding: 20px;
+      background: #222;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .site-footer a {
+      color: #aaccff;
+      text-decoration: none;
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar with Dropdown Links -->
+  <nav>
+    <div><strong>NYU Langone Health</strong></div>
+    <div class="dropdown">
+      <span>Navigate ▼</span>
+      <div class="dropdown-content">
+        <a href="about.html">About</a>
+        <a href="involved.html">Get Involved</a>
+        <a href="page2.html">Page 2</a>
+        <a href="page4.html">MyNYU</a>
+      </div>
+    </div>
+  </nav>
+
+
+<!-- CLosure Message-->
+
+<div style="background-color: yellow; padding: 15px; text-align: center; font-weight: bold;">
+  Hospital Closure<br>
+  <span style="font-weight: normal;">
+    Starting December 8th (8/12/2025), our Bloxburg Location will be closing temporarily until December 15 (15/12/2025).
+    <a href="documents/closure-notice.pdf" target="_blank" style="color: blue; text-decoration: underline;">Further Info</a>
+  </span>
+</div>
+
+  <!-- Hero Banner with Background Image -->
+  <section class="hero">
+    <h1>About</h1>
+  </section>
+  
+
+  
+
+  <!-- Main Content Section -->
+  <div class="main-content">
+    <h2>The Future of Medicine Starts Here.</h2>
+    <br>
+    <strong>
+      <p>Bloxburg's Most Realistic Medical Roleplay on Market</p>
+    </strong>
+    <p> Dive into a medical roleplay as unique as the human being. With the ability to provide care in over 135 specialities, the sky is the limit with the roleplay opportunities. From a check up, all the way through a life saving surgery, every RP offers a unique experience and spotlight into what the medical field </p>
+  </div>
+
+  <!-- Stats Section -->
+  <section class="stats-section">
+    <div class="stat-box" data-target="100">
+      <h3>Patients Treated</h3>
+      <p class="counter">125</p>
+    </div>
+    <div class="stat-box" data-target="25">
+      <h3>Sessions Completed</h3>
+      <p class="counter">28</p>
+    </div>
+    <div class="stat-box" data-target="95">
+      <h3>Correct Discharges</h3>
+      <p class="counter">120</p>
+    </div>
+  </section>
+  
+  <div style="background-color: #102b56; color: white; padding: 40px 20px; display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: center;">
+  <div style="flex: 1; min-width: 300px; max-width: 700px; padding-right: 20px;">
+    <h2 style="margin-top: 0;">A Legacy of Care and Innovation</h2>
+    <p><strong>Originally called Michigan Medicine, NYU Langone has a 3-year rich history.</strong></p>
+    <p>Starting as just a clinic (priced at around 200k), Michigan Medicine soon took off into the pre-cursor of NYU.</p>
+    <p>Founded on principles of care, empathy, truth, and realism, it became a harbor for laid-back, peaceful roleplay.</p>
+    <p>With the idea that everyone should receive care in a positive setting, Michigan Medicine stood out among ro-med servers.</p>
+
+    <h3>A Legacy that Paved the Road</h3>
+    <p>About 1½ years later, Michigan Medicine faced administrative changes.</p>
+    <p>The original owner had to step away, and with the help of Jacob Vanderbilt and Drew Devan, the team stayed true to its founding values.</p>
+    <p>Roughly 8–10 months after that, the group hit a dead period where closure was heavily discussed.</p>
+
+    <h3>Fostering a New Idea: NYU Langone Forms</h3>
+    <p>A name change and campus overhaul were proposed. It felt risky—but it was exactly what the community needed.</p>
+    <p>Through redesign, outreach, and a focus on roleplay-first care, NYU Langone soon gained more traction than Michigan Medicine ever had.</p>
+    <p>With Devan building the medical program and Vanderbilt handling group infrastructure, NYU was ready to launch.</p>
+    <p>They kept the original hospital but knew something more was needed. With support from @iluvgiveon (CNO), the current campus was born.</p>
+
+    <h3>Present NYU Langone</h3>
+    <p>Initial sessions had modest turnout. Momentum was fading again... until inspiration struck.</p>
+    <p>Social media ramped up under Devan’s lead, Vanderbilt locked in YouTuber outreach, and things exploded from there.</p>
+    <p>From that video alone, NYU tripled its numbers and now serves 170+ members actively participating in care.</p>
+
+    <h3>The Future of NYU</h3>
+    <p><strong>What’s next for NYU? Potential.</strong></p>
+    <p>We combine educational ambition with inclusive, narrative-driven experiences—something most Roblox hospitals miss.</p>
+    <p>We create positive atmospheres, encourage growth, and help others discover a passion for medicine or community building.</p>
+    <p>While there's room for refinement, we’re proud of what we’ve built—and we aim for 1,000 members united by care, creativity, and NYU Langone’s legacy.</p>
+  </div>
+
+  <div style="flex: 1; min-width: 280px; text-align: center;">
+    <img src="images/hospital-history.jpg" alt="Hospital History" style="max-width: 100%; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.2);" />
+  </div>
+</div>
+
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-left">
+      <a href="https://discord.com/your-server-link" target="_blank">Discord</a> |
+      <a href="https://www.roblox.com/communities/14641457/NYU-Langone-Health#!/about" target="_blank">Roblox Group</a> |
+      <a href="https://www.tiktok.com/@yourhandle" target="_blank">TikTok</a>
+    </div>
+    <div class="footer-right">
+      &copy; Roblox NYU Langone Health 2025
+    </div>
+  </footer>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const statBoxes = document.querySelectorAll(".stat-box");
+
+    const animateCountUp = (counter, target) => {
+      let current = 0;
+      const increment = Math.ceil(target / 100);
+      const step = () => {
+        current += increment;
+        if (current < target) {
+          counter.innerText = current;
+          requestAnimationFrame(step);
+        } else {
+          counter.innerText = target;
+        }
+      };
+      requestAnimationFrame(step);
+    };
+
+    const observer = new IntersectionObserver((entries, obs) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const box = entry.target;
+          const counter = box.querySelector(".counter");
+          const target = +box.getAttribute("data-target");
+          animateCountUp(counter, target);
+          obs.unobserve(box);
+        }
+      });
+    }, { threshold: 0.5 });
+
+    statBoxes.forEach(box => observer.observe(box));
+  });
+</script>
+
+</body>
+</html>
